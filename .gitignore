@@ -1,0 +1,2 @@
+# 忽略 h5 文件夹下的 config 文件夹
+h5/config/

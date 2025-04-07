@@ -1,0 +1,61 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "福彩分析师",
+				"backgroundColor": "#1e2337",
+				// "navigationBarBackgroundColor": "#1e2337",
+				"navigationBarBackgroundColor": "#ff0000",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/fenxi/fenxi",
+			"style": {
+				"navigationBarTitleText": "福彩分析师",
+				"backgroundColor": "#1e2337",
+				// "navigationBarBackgroundColor": "#1e2337",
+								"navigationBarBackgroundColor": "#ff0000",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"type": "share"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"tabBar": {
+		// "backgroundColor": "#ff0000",
+		"backgroundColor": "#fff",
+		"selectedColor": "#ff0000",
+		"color": "#999",
+		// "color": "#666",
+		// "fontSize": "14px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/ssq.png",
+				"selectedIconPath": "/static/ssq-active.png",
+				"text": "双色球"
+			},
+			{
+				"pagePath": "pages/fenxi/fenxi",
+				"iconPath": "/static/fenxi.png",
+				"selectedIconPath": "/static/fenxi-active.png",
+				"text": "分析"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
